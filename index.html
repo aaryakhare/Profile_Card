@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+</head>
+<style>
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        height: 100;
+    }
+
+    .container {
+        height: 100;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box {
+        background-color: #090909;
+        text-align: center;
+        padding: 100px 100px;
+        border-radius: 20px;
+        border: 5px solid gold;
+    }
+
+    .box:hover {
+        transform: scale(1.05);
+    }
+
+    #profile {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        border: 2px solid gold;
+    }
+
+    button {
+        background-color: blue;
+        text-align: center;
+        color: whitesmoke;
+        height: 50px;
+        width: 150px;
+        border-radius: 20px;
+        border: 2px solid gold;
+    }
+
+    button:hover {
+        transform: scale(1.03);
+    }
+
+    h2 {
+        color: white;
+        font-size: 200%;
+    }
+    #l,#x,#g{
+        border-radius: 50%;
+        border: 2px solid gold;
+    }
+    #l:hover,#x:hover,#g:hover{
+        transform: scale(1.1);
+    }
+    .logo{
+        gap: ;
+    }
+</style>
+
+<body>
+
+    <div class="container">
+        <div class="box">
+            <h2> Aarya Khare</h2>
+            <img style="width: 300px;" src="images/wallpaper.jpg" <stylealt="Profile Photo">
+            <button>View Project</button>
+            <button>Major Project</button>
+            <div class="Logo">
+                <img src="images/linkedin.png" style="width: 100px;" alt="linkedin" id="l">
+                <img src="images/twitter - Copy.jpeg" style="width: 100px;" alt="X img" id="x">
+                <img src="images/G.png" style="width: 100px;" alt="Github img" id="g">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
